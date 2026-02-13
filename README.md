@@ -8,7 +8,7 @@
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-  **⚡ A sandbox environment for experimenting with Vite, React, and TypeScript**
+  **⚡ A sandbox environment for experimenting with Vite, React, and TypeScript 🎨**
 
   [Vite Docs](https://vite.dev/guide/) · [React Docs](https://react.dev) · [TypeScript Docs](https://www.typescriptlang.org/docs/)
 </div>
