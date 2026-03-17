@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" alt="sandbox-vite" width="512"/>
+  <img src="https://raw.githubusercontent.com/tsilva/sandbox-vite/main/logo.png" alt="sandbox-vite" width="512"/>
 
   # sandbox-vite
 
