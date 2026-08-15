@@ -16,16 +16,16 @@ All commands should be executed from `vite-project/`:
 cd vite-project
 
 # Start development server with HMR
-npm run dev
+pnpm dev
 
 # Build for production (includes TypeScript compilation)
-npm run build
+pnpm build
 
 # Lint code with ESLint
-npm run lint
+pnpm lint
 
 # Preview production build
-npm run preview
+pnpm preview
 ```
 
 ## Architecture
@@ -45,7 +45,7 @@ The project uses TypeScript project references with separate configurations:
 
 ## Package Manager
 
-The project uses `pnpm` (evidenced by `pnpm-lock.yaml`). Use `pnpm` commands instead of `npm` where possible.
+The project uses pnpm 10.27.0 with a committed `pnpm-lock.yaml`. Use pnpm for every dependency and development command.
 
 ## Important Notes
 
