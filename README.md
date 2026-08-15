@@ -61,6 +61,7 @@ All commands should be run from the `vite-project/` directory:
 | `pnpm dev` | Start development server with HMR |
 | `pnpm build` | Build for production |
 | `pnpm lint` | Run ESLint |
+| `pnpm test` | Run dependency-security regression tests |
 | `pnpm preview` | Preview production build |
 
 ## TypeScript Configuration
