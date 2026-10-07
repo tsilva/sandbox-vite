@@ -1,17 +1,17 @@
-<div align="center">
+<p align="center">
   <img src="https://raw.githubusercontent.com/tsilva/sandbox-vite/main/logo.png" alt="sandbox-vite" width="512"/>
+  <br />
+  <!-- repo-tagline:start -->
+  <strong>⚡ A sandbox environment for experimenting with Vite, React, and TypeScript 🎨</strong>
+  <!-- repo-tagline:end -->
+</p>
 
-  # sandbox-vite
-
-  [![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?logo=vite&logoColor=white)](https://vite.dev)
+[![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?logo=vite&logoColor=white)](https://vite.dev)
   [![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react&logoColor=white)](https://react.dev)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-  **⚡ A sandbox environment for experimenting with Vite, React, and TypeScript 🎨**
-
   [Vite Docs](https://vite.dev/guide/) · [React Docs](https://react.dev) · [TypeScript Docs](https://www.typescriptlang.org/docs/)
-</div>
 
 ## Overview
 
