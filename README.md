@@ -84,4 +84,4 @@ The project uses TypeScript project references with three configs:
 
 ## License
 
-MIT
+[MIT License](LICENSE).
