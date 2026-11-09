@@ -32,9 +32,9 @@ pnpm preview
 
 - **Entry point**: `vite-project/src/main.tsx` - Renders the React app into the DOM
 - **Root component**: `vite-project/src/App.tsx` - Main application component
-- **Build tool**: Vite 6.x with React plugin
+- **Build tool**: Vite 8.x with React plugin
 - **TypeScript**: Configured with project references (see `tsconfig.json`, `tsconfig.app.json`, `tsconfig.node.json`)
-- **Linting**: ESLint 9.x with React Hooks and React Refresh plugins
+- **Linting**: ESLint 10.x with React Hooks and React Refresh plugins
 
 ## TypeScript Configuration
 
