@@ -49,13 +49,16 @@ for (const brace of bracePackages) {
   assert.ok(Array.isArray(result));
 }
 
-const yaml = installedPackage("js-yaml", "js-yaml");
-assert.ok(atLeast(yaml.version, "4.3.1"));
-const orderedMap = `!!omap\n${Array.from({ length: 2_000 }, (_, index) => `- key${index}: ${index}`).join("\n")}`;
-const yamlStarted = performance.now();
-assert.equal(yaml.module.load(orderedMap).length, 2_000);
-assert.ok(performance.now() - yamlStarted < 1_000, "hostile ordered map is bounded");
-assert.deepEqual(yaml.module.load("safe: true"), { safe: true });
+// ESLint 10 no longer brings in js-yaml. Check it if a dependency adds it back.
+if (storeEntries.some((entry) => entry.startsWith("js-yaml@"))) {
+  const yaml = installedPackage("js-yaml", "js-yaml");
+  assert.ok(atLeast(yaml.version, "4.3.1"));
+  const orderedMap = `!!omap\n${Array.from({ length: 2_000 }, (_, index) => `- key${index}: ${index}`).join("\n")}`;
+  const yamlStarted = performance.now();
+  assert.equal(yaml.module.load(orderedMap).length, 2_000);
+  assert.ok(performance.now() - yamlStarted < 1_000, "hostile ordered map is bounded");
+  assert.deepEqual(yaml.module.load("safe: true"), { safe: true });
+}
 
 const lock = readFileSync(join(projectRoot, "pnpm-lock.yaml"), "utf8");
 assert.match(lock, /'@babel\/core@7\.29\.(?:[6-9]|\d{2,})':/);
