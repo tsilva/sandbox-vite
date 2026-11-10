@@ -6,9 +6,9 @@
   <!-- repo-tagline:end -->
 </p>
 
-[![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?logo=vite&logoColor=white)](https://vite.dev)
-  [![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react&logoColor=white)](https://react.dev)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Vite](https://img.shields.io/badge/Vite-8.x-646CFF?logo=vite&logoColor=white)](https://vite.dev)
+  [![React](https://img.shields.io/badge/React-19.x-61DAFB?logo=react&logoColor=white)](https://react.dev)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-6.0-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
   [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
   [Vite Docs](https://vite.dev/guide/) · [React Docs](https://react.dev) · [TypeScript Docs](https://www.typescriptlang.org/docs/)
@@ -21,7 +21,7 @@ sandbox-vite is an experimental playground for exploring Vite's features and cap
 
 - **Lightning-fast HMR** - Instant hot module replacement for rapid development
 - **TypeScript support** - Full type safety with project references configuration
-- **Modern React** - React 18 with hooks and functional components
+- **Modern React** - React 19 with hooks and functional components
 - **ESLint configured** - Code quality enforcement out of the box
 - **Minimal setup** - Ready to experiment immediately
 
@@ -76,10 +76,10 @@ The project uses TypeScript project references with three configs:
 
 | Technology | Version | Purpose |
 |------------|---------|---------|
-| Vite | 6.x | Build tool and dev server |
-| React | 18.x | UI framework |
-| TypeScript | 5.6 | Type safety |
-| ESLint | 9.x | Code linting |
+| Vite | 8.x | Build tool and dev server |
+| React | 19.x | UI framework |
+| TypeScript | 6.0 | Type safety |
+| ESLint | 10.x | Code linting |
 | pnpm | - | Package manager |
 
 ## License
